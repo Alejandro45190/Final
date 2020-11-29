@@ -1,18 +1,28 @@
 package com.mycompany.finalproject;
 
-public class Building {
-    private String street;
-    private int number;
-    private int bedrooms;
-    private int restrooms;
-    private int squareFeet;
+public abstract class Building {
+    public String street;
+    public int number;
+    public int bedrooms;
+    public int restrooms;
+    public String squareFeet;
+    public int monthlyPrice;
 
-    public Building(String street, int number, int bedrooms, int restrooms, int squareFeet) {
+    public Building(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice) {
         this.street = street;
         this.number = number;
         this.bedrooms = bedrooms;
         this.restrooms = restrooms;
         this.squareFeet = squareFeet;
+        this.monthlyPrice = monthlyPrice;
+    }
+
+    public int getPrice() {
+        return monthlyPrice;
+    }
+
+    public void setPrice(int monthlyPrice) {
+        this.monthlyPrice = monthlyPrice;
     }
 
     public String getStreet() {
@@ -47,11 +57,17 @@ public class Building {
         this.restrooms = restrooms;
     }
 
-    public int getSquareFeet() {
+    public String getSquareFeet() {
         return squareFeet;
     }
 
-    public void setSquareFeet(int squareFeet) {
+    public void setSquareFeet(String squareFeet) {
         this.squareFeet = squareFeet;
+    }
+
+    @Override
+    public String toString() {
+        return "Street name: " + street + " Number: " + number + " bedrooms: " + bedrooms + " restrooms: "
+                + restrooms + "square feet: " + squareFeet;
     }
 }

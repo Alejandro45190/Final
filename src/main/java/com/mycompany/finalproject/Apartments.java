@@ -1,13 +1,19 @@
 package com.mycompany.finalproject;
 
 public class Apartments extends Building{
+
     private String street;
     private int aptNum;
     private int bedrooms;
     private int restrooms;
 
-    public Apartments(String street, int number, int bedrooms, int restrooms, int squareFeet) {
-        super(street, number, bedrooms, restrooms, squareFeet);
+    public Apartments(String street, int aptNum, int bedrooms, int restrooms, String squareFeet, int monthlyPrice) {
+        super(street, aptNum, bedrooms, restrooms, squareFeet, monthlyPrice);
+        this.street = street;
+        this.aptNum = aptNum;
+        this.bedrooms = bedrooms;
+        this.restrooms = restrooms;
+        this.squareFeet = squareFeet;
     }
 
     public String getStreet() {
@@ -40,5 +46,11 @@ public class Apartments extends Building{
 
     public void setRestrooms(int restrooms) {
         this.restrooms = restrooms;
+    }
+
+    @Override
+    public String toString() {
+        return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", Apartment number: " + aptNum + ", bedrooms: " + bedrooms + ", restrooms: "
+                + restrooms + ", square feet: " + squareFeet;
     }
 }

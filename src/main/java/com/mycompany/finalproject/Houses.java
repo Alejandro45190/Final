@@ -6,10 +6,15 @@ public class Houses extends Building{
     private int houseNum;
     private int bedrooms;
     private int restrooms;
-    private int squareFeet;
+    private String squareFeet;
 
-    public Houses(String street, int number, int bedrooms, int restrooms, int squareFeet) {
-        super(street, number, bedrooms, restrooms, squareFeet);
+    public Houses(String street, int houseNum, int bedrooms, int restrooms, String squareFeet, int monthlyPrice) {
+        super(street, houseNum, bedrooms, restrooms, squareFeet, monthlyPrice);
+        this.street = street;
+        this.houseNum = houseNum;
+        this.bedrooms = bedrooms;
+        this.restrooms = restrooms;
+        this.squareFeet = squareFeet;
     }
 
     public String getStreet() {
@@ -44,11 +49,17 @@ public class Houses extends Building{
         this.restrooms = restrooms;
     }
 
-    public int getSquareFeet() {
+    public String getSquareFeet() {
         return squareFeet;
     }
 
-    public void setSquareFeet(int squareFeet) {
+    public void setSquareFeet(String squareFeet) {
         this.squareFeet = squareFeet;
+    }
+
+    @Override
+    public String toString() {
+        return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", House number: " + houseNum + ", bedrooms: " + bedrooms + ", restrooms: "
+                + restrooms + ", square feet: " + squareFeet;
     }
 }
