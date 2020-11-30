@@ -180,20 +180,20 @@ public class Start {
                     int price4;
                     price4 = priceRange4.nextInt();
 
-                    ranches d1 = new ranches("4th Avenue", 200, 1, 1, "87120", 2000, true, "2", "December 5, 2020");
-                    ranches d2 = new ranches("Hawthorne Avenue", 108, 2, 1, "108900", 3000, true, "2.5", "January 15, 2021");
-                    ranches d3 = new ranches("Cleveland Street", 366, 3, 2, "108900", 3500, true, "2.5", "February 7, 2021");
-                    ranches d4 = new ranches("Amherst Street", 310, 2, 2, "87120", 3000, false, "2", "November 30, 2020");
-                    ranches d5 = new ranches("Riverside Drive", 256, 3, 2, "130680", 4000, false, "3", "November 3, 2020");
-                    ArrayList<ranches> r1 = new ArrayList<>();
+                    Ranches d1 = new Ranches("4th Avenue", 200, 1, 1, "87120", 2000, true, "2", "December 5, 2020");
+                    Ranches d2 = new Ranches("Hawthorne Avenue", 108, 2, 1, "108900", 3000, true, "2.5", "January 15, 2021");
+                    Ranches d3 = new Ranches("Cleveland Street", 366, 3, 2, "108900", 3500, true, "2.5", "February 7, 2021");
+                    Ranches d4 = new Ranches("Amherst Street", 310, 2, 2, "87120", 3000, false, "2", "November 30, 2020");
+                    Ranches d5 = new Ranches("Riverside Drive", 256, 3, 2, "130680", 4000, false, "3", "November 3, 2020");
+                    ArrayList<Ranches> r1 = new ArrayList<>();
                     r1.add(d1);
                     r1.add(d2);
                     r1.add(d3);
                     r1.add(d4);
                     r1.add(d5);
-                    for (int k = 0; k < r1.size(); k++) {
-                        if (r1.get(k).getMonthlyPrice() <= price4) {
-                            System.out.println(r1.get(k));
+                    for (Ranches ranches : r1) {
+                        if (ranches.getMonthlyPrice() <= price4) {
+                            System.out.println(ranches);
                         } else if (price4 < 2000) {
                             System.out.println("We don't have any ranches lower than that amount.");
                             break;

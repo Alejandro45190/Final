@@ -1,10 +1,10 @@
 package com.mycompany.finalproject;
 
-public class ranches extends Building {
+public class Ranches extends Building {
 
     private String acres;
 
-    public ranches(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice, boolean isTaken, String acres, String rentDue) {
+    public Ranches(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice, boolean isTaken, String acres, String rentDue) {
         super(street, number, bedrooms, restrooms, squareFeet, monthlyPrice, isTaken, rentDue);
         this.acres = acres;
     }
