@@ -2,7 +2,7 @@ Created by Alejandro Rivas, B.S. Candidate | Computer Science | Tarleton State U
 
 This project is written in Java.
 
-Welcome to Realtor application!This application will notify the consumer if the building has a pool, when the lease is going to be over, how many square feet or acres, and how many bedrooms and restrooms.
+Welcome to Realtor application! This application will notify the consumer if the building has a pool, when the lease is going to be over, how many square feet or acres, and how many bedrooms and restrooms.
 
 To run the project:
   1. Run the program
