@@ -9,12 +9,13 @@ public class TownHomes extends Building{
     private char floor;
     private String squareFeet;
 
-    public TownHomes(String street, int townhomeNum, int bedrooms, int restrooms, String squareFeet, int monthlyPrice) {
-        super(street, townhomeNum, bedrooms, restrooms, squareFeet, monthlyPrice);
+    public TownHomes(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice, boolean isTaken, String rentDue) {
+        super(street, number, bedrooms, restrooms, squareFeet, monthlyPrice, isTaken, rentDue);
         this.street = street;
         this.townhomeNum = townhomeNum;
         this.bedrooms = bedrooms;
         this.restrooms = restrooms;
+        this.floor = floor;
         this.squareFeet = squareFeet;
     }
 
@@ -69,6 +70,6 @@ public class TownHomes extends Building{
     @Override
     public String toString() {
         return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", Townhome number: " + townhomeNum + ", bedrooms: " + bedrooms + ", restrooms: "
-                + restrooms + ", square feet: " + squareFeet;
+                + restrooms + ", square feet: " + squareFeet + ", true if its taken or false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
     }
 }

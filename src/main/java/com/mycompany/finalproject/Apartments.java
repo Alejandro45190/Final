@@ -7,13 +7,12 @@ public class Apartments extends Building{
     private int bedrooms;
     private int restrooms;
 
-    public Apartments(String street, int aptNum, int bedrooms, int restrooms, String squareFeet, int monthlyPrice) {
-        super(street, aptNum, bedrooms, restrooms, squareFeet, monthlyPrice);
+    public Apartments(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice, boolean isTaken, String rentDue) {
+        super(street, number, bedrooms, restrooms, squareFeet, monthlyPrice, isTaken, rentDue);
         this.street = street;
         this.aptNum = aptNum;
         this.bedrooms = bedrooms;
         this.restrooms = restrooms;
-        this.squareFeet = squareFeet;
     }
 
     public String getStreet() {
@@ -51,6 +50,6 @@ public class Apartments extends Building{
     @Override
     public String toString() {
         return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", Apartment number: " + aptNum + ", bedrooms: " + bedrooms + ", restrooms: "
-                + restrooms + ", square feet: " + squareFeet;
+                + restrooms + ", square feet: " + squareFeet + ", true if its taken or false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
     }
 }

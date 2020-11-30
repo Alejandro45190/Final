@@ -7,22 +7,26 @@ public abstract class Building {
     public int restrooms;
     public String squareFeet;
     public int monthlyPrice;
+    public boolean isTaken;
+    public String rentDue;
 
-    public Building(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice) {
+    public Building(String street, int number, int bedrooms, int restrooms, String squareFeet, int monthlyPrice, boolean isTaken, String rentDue) {
         this.street = street;
         this.number = number;
         this.bedrooms = bedrooms;
         this.restrooms = restrooms;
         this.squareFeet = squareFeet;
         this.monthlyPrice = monthlyPrice;
+        this.isTaken = isTaken;
+        this.rentDue = rentDue;
     }
 
-    public int getPrice() {
-        return monthlyPrice;
+    public String getRentDue() {
+        return rentDue;
     }
 
-    public void setPrice(int monthlyPrice) {
-        this.monthlyPrice = monthlyPrice;
+    public void setRentDue(String rentDue) {
+        this.rentDue = rentDue;
     }
 
     public String getStreet() {
@@ -65,9 +69,25 @@ public abstract class Building {
         this.squareFeet = squareFeet;
     }
 
+    public int getMonthlyPrice() {
+        return monthlyPrice;
+    }
+
+    public void setMonthlyPrice(int monthlyPrice) {
+        this.monthlyPrice = monthlyPrice;
+    }
+
+    public boolean isTaken() {
+        return isTaken;
+    }
+
+    public void setTaken(boolean taken) {
+        isTaken = taken;
+    }
+
     @Override
     public String toString() {
-        return "Street name: " + street + " Number: " + number + " bedrooms: " + bedrooms + " restrooms: "
-                + restrooms + "square feet: " + squareFeet;
+        return "Street name: " + street + ", Number: " + number + ", bedrooms: " + bedrooms + ", restrooms: "
+                + restrooms + ", square feet: " + squareFeet + ", true if its taken or false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
     }
 }
