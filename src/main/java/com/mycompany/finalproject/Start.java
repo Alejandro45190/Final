@@ -61,9 +61,9 @@ public class Start {
                     h1.add(a7);
                     h1.add(a8);
 
-                    for (int i = 0; i < h1.size(); i++) {
-                        if (h1.get(i).getMonthlyPrice() <= price) {
-                            System.out.println(h1.get(i));
+                    for (Houses houses : h1) {
+                        if (houses.getMonthlyPrice() <= price) {
+                            System.out.println(houses);
                         } else if (price < 672) {
                             System.out.println("We don't have any houses lower than that amount.");
                             break;
@@ -110,9 +110,9 @@ public class Start {
                     a1.add(b9);
                     a1.add(b10);
                     a1.add(b11);
-                    for (int j = 0; j < a1.size(); j++) {
-                        if (a1.get(j).getMonthlyPrice() <= price2) {
-                            System.out.println(a1.get(j));
+                    for (Apartments apartments : a1) {
+                        if (apartments.getMonthlyPrice() <= price2) {
+                            System.out.println(apartments);
                         } else if (price2 < 448) {
                             System.out.println("We don't have any apartments lower than that amount.");
                             break;
@@ -155,9 +155,9 @@ public class Start {
                     t1.add(c7);
                     t1.add(c8);
                     t1.add(c9);
-                    for (int k = 0; k < t1.size(); k++) {
-                        if (t1.get(k).getMonthlyPrice() <= price3) {
-                            System.out.println(t1.get(k));
+                    for (TownHomes townHomes : t1) {
+                        if (townHomes.getMonthlyPrice() <= price3) {
+                            System.out.println(townHomes);
                         } else if (price3 < 450) {
                             System.out.println("We don't have any town homes lower than that amount.");
                             break;
