@@ -20,6 +20,6 @@ public class Ranches extends Building {
     @Override
     public String toString() {
         return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", Ranch number: " + number + ", bedrooms: " + bedrooms + ", restrooms: "
-                + restrooms + ", acres: " + acres + ", square feet: " + squareFeet + ", true if its taken or false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
+                + restrooms + ", acres: " + acres + ", square feet: " + squareFeet + ", if its false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
     }
 }

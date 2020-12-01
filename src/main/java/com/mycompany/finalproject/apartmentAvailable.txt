@@ -1,14 +1,49 @@
 Apartments in our database....
 
 1000 E Lingleville Rd, Stephenville, TX 76401
-Apartment is for rent around $448-1,185.
-It has 1 or 2 bedroom option.
+Apartment is for rent around $448.
+It has 1 bedroom and 1 bathroom.
+
+1000 E Lingleville Rd, Stephenville, TX 76401
+Apartment is for rent around $1,185.
+It has 2 bedrooms and 1 restroom.
 
 1136 W Washington Ave, Stephenville, TX 76401
-Apartment is for rent around $620-785.
-It has 1-5 bedroom option.
+Apartment is for rent around $620/mo.
+It has 1 bedroom, and 1 restroom.
+
+1136 W Washington Ave, Stephenville, TX 76401
+Apartment is for rent around $660/mo.
+It has 2 bedrooms, and 2 restrooms.
+
+1136 W Washington Ave, Stephenville, TX 76401
+Apartment is for rent around $675/mo.
+It has 3 bedrooms, and 2 restrooms.
+
+1136 W Washington Ave, Stephenville, TX 76401
+Apartment is for rent around $700/mo.
+It has 4 bedrooms, and 2 restrooms.
+
+1136 W Washington Ave, Stephenville, TX 76401
+Apartment is for rent around $785/mo.
+It has 5 bedrooms, and 3 restrooms.
 
 1191 W Vanderbilt St, Stephenville, TX 76401
-Apartment is for rent around $575-895.
-It has 1-4 bedroom option.
+Apartment is for rent around $575\mo.
+It has 1 bedroom, and 1 restroom.
 
+1191 W Vanderbilt St, Stephenville, TX 76401
+Apartment is for rent around $730\mo.
+It has 2 bedrooms, and 2 restrooms.
+
+1191 W Vanderbilt St, Stephenville, TX 76401
+Apartment is for rent around $840\mo.
+It has 3 bedrooms, and 2 restrooms.
+
+1191 W Vanderbilt St, Stephenville, TX 76401
+Apartment is for rent around $895\mo.
+It has 4 bedrooms, and 2 restrooms.
+
+1191 W Vanderbilt St, Stephenville, TX 76401
+Apartment is for rent around $895\mo.
+It has 5 bedrooms, and 2 restrooms.

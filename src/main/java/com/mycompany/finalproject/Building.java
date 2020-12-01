@@ -88,6 +88,6 @@ public abstract class Building {
     @Override
     public String toString() {
         return "Street name: " + street + ", Number: " + number + ", bedrooms: " + bedrooms + ", restrooms: "
-                + restrooms + ", square feet: " + squareFeet + ", true if its taken or false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
+                + restrooms + ", square feet: " + squareFeet + ", if its false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
     }
 }

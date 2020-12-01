@@ -2,20 +2,48 @@ Ranches in our database...
 
 200 4th Avenue, Stephenville, TX 76401
 Ranch is for rent for $2,000.
-It has 1 bedroom, and 1 bathroom, and 2 acres.
+It has 1 bedroom, 1 bathroom, and 2 acres.
 
 108 Hawthorne Avenue, Stephenville, TX 76401
 Ranch is for rent for $3,000.
-It has 2 bedrooms, and 1 bathroom, and 2.5 acres.
+It has 2 bedrooms, 1 bathroom, and 2.5 acres.
 
 366 Cleveland Street, Stephenville, TX 76401
 Ranch is for rent for $3,500.
-It has 3 bedrooms, and 2 bathrooms, and 2.5 acres.
+It has 3 bedrooms, 2 bathrooms, and 2.5 acres.
 
 310 Amherst Street, Stephenville, TX 76401
 Ranch is for rent for $3,000. 
-It has 2 bedrooms, and 2 bathrooms, and 2 acres.
+It has 2 bedrooms, 2 bathrooms, and 2 acres.
 
 256 Riverside Drive, Stephenville, TX 76401
 Ranch is for rent for $4,000. 
-It has 3 bedrooms, and 2 bathrooms, and 3 acres.
+It has 3 bedrooms, 2 bathrooms, and 3 acres.
+
+210 Cactus Valley, Stephenville, TX 76401
+Ranch is for rent for $1,000.
+It has 3 bedrooms, 2 bathrooms, and 1 acre.
+
+216 Cactus Valley, Stephenville, TX 76401
+Ranch is for rent for $1,000.
+It has 3 bedrooms, 2 bathrooms, and 1 acre.
+
+640 N Isla, Stephenville, TX 76401
+Ranch is for rent for $1,600.
+It has 3 bedrooms, 2 bathrooms, and 1.5 acre.
+
+709 Moonlight Trail, Stephenville, TX 76401
+Ranch is for rent for $1,950.
+It has 3 bedrooms, 2 bathrooms, and 2 acre.
+
+705 Moonlight Trail, Stephenville, TX 76401
+Ranch is for rent for $1,950.
+It has 3 bedrooms, 2 bathrooms, and 2 acre.
+
+701 Prairie Wind Blvd, Stephenville, TX 76401
+Ranch is for rent for $2,000.
+It has 3 bedrooms, 2 bathrooms, and 2.1 acre.
+
+703 Prairie Wind Blvd, Stephenville, TX 76401
+Ranch is for rent for $2,000.
+It has 3 bedrooms, 2 bathrooms, and 2.1 acre.
