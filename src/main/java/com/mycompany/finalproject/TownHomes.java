@@ -69,7 +69,7 @@ public class TownHomes extends Building{
 
     @Override
     public String toString() {
-        return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", Townhome number: " + townhomeNum + ", bedrooms: " + bedrooms + ", restrooms: "
+        return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", Townhome number: " + number + ", bedrooms: " + bedrooms + ", restrooms: "
                 + restrooms + ", square feet: " + squareFeet + ", if its false its available for rent: " + isTaken + ", rent is over on: " + rentDue;
     }
 }

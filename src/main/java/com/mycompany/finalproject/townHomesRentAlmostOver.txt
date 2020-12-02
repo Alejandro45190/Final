@@ -1,0 +1,31 @@
+Town homes in our database that's rent is almost over....
+
+101 E. Riverside Dr., Stephenville, TX 76401
+Rent is over on January 3, 2021
+Townhome is for rent around $780\mo.
+It has 2 bedrooms, and 2 bathrooms.
+
+101 E. Riverside Dr., Stephenville, TX 76401
+Rent is over on January 1, 2021
+Townhome is for rent around $1,000\mo.
+It has 3 bedrooms, and 2 bathrooms.
+
+385 E. Elm St., Stephenville, TX 76401
+Rent is over on August 1, 2021
+Townhome is for rent around $780\mo.
+It has 2 bedrooms, and 2 bathrooms.
+
+385 E. Elm St., Stephenville, TX 76401
+Rent is over on August 4, 2022
+Townhome is for rent around $1,000\mo.
+It has 3 bedrooms, and 2 bathrooms.
+
+254 W Long, Stephenville, TX 76401
+Rent is over on August 4, 2022
+Townhome is for rent around $1,000\mo.
+It has 3 bedrooms, and 2 bathrooms.
+
+254 W Long, Stephenville, TX 76401
+Rent is over on July 4, 2021
+Townhome is for rent around $1,00\mo.
+It has 3 bedrooms, and 2 bathrooms.

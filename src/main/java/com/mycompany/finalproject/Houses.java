@@ -70,7 +70,7 @@ public class Houses extends Building{
 
     @Override
     public String toString() {
-        return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", House number: " + houseNum + ", bedrooms: " + bedrooms + ", restrooms: "
+        return "Monthly price: " + monthlyPrice + ", Street name: " + street + ", House number: " + number + ", bedrooms: " + bedrooms + ", restrooms: "
                 + restrooms + ", square feet: " + squareFeet + ",  if its false its available for rent: " + isTaken + ", true if it has a pool: " + hasPool + ", rent is over on: " + rentDue;
     }
 }

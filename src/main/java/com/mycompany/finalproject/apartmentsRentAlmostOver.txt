@@ -1,0 +1,26 @@
+Apartments in our database that's rent is almost over....
+
+1000 E Lingleville Rd, Stephenville, TX 76401
+Rent is over on December 21, 2021
+Apartment is for rent around $1,185.
+It has 2 bedrooms and 1 restroom.
+
+1136 W Washington Ave, Stephenville, TX 76401
+Rent is over on January 3, 2021
+Apartment is for rent around $700/mo.
+It has 4 bedrooms, and 2 restrooms.
+
+1191 W Vanderbilt St, Stephenville, TX 76401
+Rent is over on December 12, 2020
+Apartment is for rent around $575\mo.
+It has 1 bedroom, and 1 restroom.
+
+1191 W Vanderbilt St, Stephenville, TX 76401
+Rent is over on February 1, 2021
+Apartment is for rent around $730\mo.
+It has 2 bedrooms, and 2 restrooms.
+
+1191 W Vanderbilt St, Stephenville, TX 76401
+Rent is over on February 3, 2021
+Apartment is for rent around $840\mo.
+It has 3 bedrooms, and 2 restrooms.

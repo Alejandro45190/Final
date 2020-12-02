@@ -1,53 +1,41 @@
-Houses in our database....
+Houses in our database that's rent is almost over....
 
 484 S First Ave, Stephenville, TX 76401
+Rent is over on December 31, 2020
 House is for rent for $900/mo.
 It has 2 bedrooms, 2 bathrooms, and 2,030 sqft.
 
-671 N Race St, Stephenville, TX 76401
-House is for rent for $2,600/mo.
-It has 3 bedrooms, 1 bathroom, and 934 sqft.
-
 1011 N Ollie St, Stephenville, TX 76401
+Rent is over on December 31, 2020
 House is for rent for $2,650/mo.
 It has 3 bedrooms, 2 bathrooms, and 1,537 sqft.
 
 1399 N Estes St, Stephenville, TX 76401
+Rent is over on January 1, 2021
 House is for rent for $2,500/mo.
 It has 3 bedrooms, 1 bathrooms, and 1,692 sqft.
 
-483 West Elm, Stephenville, TX 76401
-House is for rent for $672/mo.
-It has 2 bedrooms, 1 bathroom, 1,000 sqft.
-
 760 S College Farm Rd, Stephenville, TX 76401
+Rent is over on December 28, 2020
 House is for rent for $1,500/mo.
 It has 2 bedrooms, 2 bathrooms, and 980 sqft.
 
 793 N Belknap St, Stephenville, TX 76401
+Rent is over on July 23, 2021
 House is for rent for $850/mo.
 It has 2 bedrooms, 1 bathroom, and 995 sqft.
 
-1025 W Pecan St, Stephenville, TX 76401
-House is for rent for $1,050/mo.
-It has 3 bedrooms, 2 bathrooms, and 1,532 sqft.
-
-484 S First Ave, Stephenville, TX 76401
-House is for rent for $900/mo.
-It has 2 bedrooms, 2 bathrooms, and 2,030 sqft.
-
-480 S First Ave, Stephenville, TX 76401 
-House is for rent for $1,000/mo.
-It has 2 bedrooms, 1 bathroom, and 2,130 sqft.
-
 873 N Cain St, Stephenville, TX 76401
+Rent is over on December 31, 2020
 House if for rent for $3,000/mo.
 It has 4 bedrooms, 2 bathrooms, and 2,500 sqft.
 
 877 N Cain St, Stephenville, TX 76401
+Rent is over on November 30, 2020
 House is for rent for $3,500/mo.
 It has 3 bedrooms, 2 bathrooms, and 2,210 sqft.
 
 678 N Race St, Stephenville, TX 76401
+Rent is over on December 28, 2020
 House if for rent for $3,800/mo.
 It has 5 bedrooms, 4 bathrooms, and 2,730 sqft.
