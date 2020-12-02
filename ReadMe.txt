@@ -10,7 +10,7 @@ To run the project:
   3. Type username: 'Admin' and hit enter
   4. Type password: 'Tarleton2020' and hit enter
   5. Type either house, apartment, town home, ranch, and hit enter
-  6. It prints list of the building type you have selected
+  6. It prints list of the building type that's rent is almost over
   7. Type your price range and hit enter
   8. It prints list of building types that are available to rent
   9. Then type 'y' to continue to look through more building types and different price ranges, or 'n' to exit out the program
