@@ -1,6 +1,5 @@
 package com.mycompany.finalproject;
 
-import javax.swing.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -16,13 +15,13 @@ public class Start {
         System.out.print("Continue? (y/n): ");
         choice = sc.next();
         if ("y".equalsIgnoreCase(choice)) {
-            System.out.println();
-            return choice;
+            return "y";
         } else if ("n".equalsIgnoreCase(choice)) {
-            return choice;
+            return "n";
         } else {
             System.out.println("please enter y or n");
-            yesOrno();
+            choice = yesOrno();
+            sc.reset();
         }
         return choice;
     }
@@ -251,7 +250,7 @@ public class Start {
                         Ranches d9 = new Ranches("Moonlight Trail", 709, 3, 2, "87120", 1950, false, "2", "November 30, 2020");
                         Ranches d10 = new Ranches("Moonlight Trail", 705, 3, 2, "87120", 1950, false, "2", "October 31, 2020");
                         Ranches d11 = new Ranches("Prairie Wind Blvd", 701, 3, 2, "91476", 2000, false, "2.1", "October 7, 2020");
-                        Ranches d12 = new Ranches("Prairie Wind Blvd", 703, 3, 2, "91476", 2000, true, "2.1", "July 3, 2021");
+                        Ranches d12 = new Ranches("Prairie Wind Blvd", 703, 3, 2, "91476", 2000, true, "2.1", "February 3, 2021");
 
                         ArrayList<Ranches> r1 = new ArrayList<>();
                         r1.add(d1);

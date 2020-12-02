@@ -1,29 +1,31 @@
 Ranches in our database that's rent is almost over...
 
 200 4th Avenue, Stephenville, TX 76401
+Rent is over on December 5, 2020
 Ranch is for rent for $2,000.
 It has 1 bedroom, 1 bathroom, and 2 acres.
 
 108 Hawthorne Avenue, Stephenville, TX 76401
+Rent is over on January 15, 2021
 Ranch is for rent for $3,000.
 It has 2 bedrooms, 1 bathroom, and 2.5 acres.
 
 366 Cleveland Street, Stephenville, TX 76401
+Rent is over on February 7, 2021
 Ranch is for rent for $3,500.
 It has 3 bedrooms, 2 bathrooms, and 2.5 acres.
 
 216 Cactus Valley, Stephenville, TX 76401
+Rent is over on December 3, 2020
 Ranch is for rent for $1,000.
 It has 3 bedrooms, 2 bathrooms, and 1 acre.
 
 640 N Isla, Stephenville, TX 76401
+Rent is over on December 30, 2020
 Ranch is for rent for $1,600.
 It has 3 bedrooms, 2 bathrooms, and 1.5 acre.
 
-701 Prairie Wind Blvd, Stephenville, TX 76401
-Ranch is for rent for $2,000.
-It has 3 bedrooms, 2 bathrooms, and 2.1 acre.
-
 703 Prairie Wind Blvd, Stephenville, TX 76401
+Rent is over on February 3, 2021
 Ranch is for rent for $2,000.
 It has 3 bedrooms, 2 bathrooms, and 2.1 acre.
